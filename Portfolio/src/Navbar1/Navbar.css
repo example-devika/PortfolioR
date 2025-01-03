@@ -1,0 +1,57 @@
+.navbar {
+  width: 100%;
+  z-index: 100;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+.navbar.scrolled {
+    background-color:rgb(27, 27, 27); /* Replace with your desired color */
+    color: white;
+  }
+  .active{
+    font-weight: 700;
+    font-size: 18px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+.nav {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.list {
+  display: flex;
+  gap: 20px;
+}
+.list li {
+  list-style-type: none;
+}
+.home::before {
+  /* background: url(https://img.freepik.com/premium-vector/graphic-geometric-pattern-with-different-black-triangles_43969-475.jpg?ga=GA1.1.1223572101.1727690209&semt=ais_hybrid);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center; */
+  content: "";
+  background: url(https://img.freepik.com/premium-vector/graphic-geometric-pattern-with-different-black-triangles_43969-475.jpg?ga=GA1.1.1223572101.1727690209&semt=ais_hybrid);
+  height: 75vh;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+

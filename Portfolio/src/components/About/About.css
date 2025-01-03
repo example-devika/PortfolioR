@@ -1,0 +1,28 @@
+.about{
+    width:100%;
+    background-color:#303033 ;
+}
+.aboutme{
+    width: 84%;
+    margin: 0 auto;
+    padding-top: 50px;padding-bottom: 40px;
+    display:flex;
+flex-direction: column;    
+gap: 35px;
+    }
+    .aboutme h2{
+        color: red;
+        font-size: 36px;
+    }
+    .aboutme p{
+        color: white;
+        line-height: 28px;
+        font-size: 16px;
+        letter-spacing: 1px;
+      
+    }
+    hr{
+        border:1px solid #4F4F51;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
