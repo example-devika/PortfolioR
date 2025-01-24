@@ -14,7 +14,7 @@
     background-color:rgb(27, 27, 27); /* Replace with your desired color */
     color: white;
   }
-  .active{
+  .list .active{
     font-weight: 700;
     font-size: 18px;
   }

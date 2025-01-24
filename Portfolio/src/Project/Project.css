@@ -32,15 +32,23 @@
     margin-top: 60px;
   }
   @media only screen and (max-width:768px){
-    .projects{
-grid-template-columns: auto;    }
+    
+.project img{
+  width: 180px;
+  height: 200px;
+} }
    
-  }
+@media only screen and (max-width:1100px){
+    
+  .project img{
+    width: 300px;
+    height: 200px;
+  } }
 
 @media only screen and (max-width:600px){
-  .project img{
-    width: 180px;
-    height: 200px;
-  }
+  .projects{
+    grid-template-columns: auto; 
+ 
     }
+  }
  

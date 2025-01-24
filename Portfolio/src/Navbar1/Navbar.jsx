@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { Link} from "react-router-dom";
+import { Link, NavLink} from "react-router-dom";
 import Banner from "../Banner1/Banner";
 
 
 const Navbar = ({isScrolled}) => {
-  const[menuvar,setMenu]=useState('Home')
+  const[menuvar,setMenu]=useState('Projects')
 
   return (
     <>
@@ -15,9 +15,9 @@ const Navbar = ({isScrolled}) => {
           <div class="nav">
             <h2>Devika-Portfolio</h2>
             <ul class="list">
-            <Link to="/" onClick={()=>setMenu('Home')} className={menuvar==='Home'?"active":""}>Home</Link>
+            <NavLink to="/" >Home</NavLink>
 
-            <Link to="/projects" onClick={()=>setMenu('projects')} className={menuvar==='projects'?"active":""}>Projects</Link>
+            <NavLink to="/projects" activeClassName="active">Projects</NavLink>
 
             </ul>
           </div>
